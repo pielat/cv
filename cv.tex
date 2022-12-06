@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%
+% This CV was created using altacv template: https://github.com/liantze/AltaCV
+%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper]{altacv}
+
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm,footskip=0.5\baselineskip}
+%\geometry{left=1.25cm,right=9cm,top=1.5cm,bottom=1.5cm,headheight=17pt,includefoot,heightrounded,columnsep=1.2cm}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{008080}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{Adam Pielatowski}
+\tagline{Senior IT Specialist with DevOps, Security and Support background}
+\photo{2.5cm}{profile_picture}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{adam.pielatowski@gmail.com}
+  \phone{+48 661 545 089}
+  \location{Poznań, Poland}
+  \linkedin{linkedin.com/in/pielatowski}
+%   \github{github.com/pielat} %I don't think my github is worth sharing :-)
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+\thispagestyle{empty}
+\cvsection[page1sidebar]{Employment history \faSuitcase}
+\cvevent{L2 Technical Support Engineer}{Egnyte Poland Sp. z o.o.}{Apr 2020 - present}{Poznań, Polska}
+\begin{itemize}
+  \item Designated as a main support engineer for the biggest client: Redbull.
+  \item Solving technical issues for business clients.
+  \item Developing, deploying and maintaining an internal, production application used by DevOps, Developers and Support agents. One-man project, from an idea to deployment.
+  \item Preparing documentation for support agents and customers.
+  \item Internal training for support agents.
+  \item Technical stack used in this position: Zendesk, Jira, Confluence, Debian, SAML, SCIM, LDAP, SSL, Azure AD, Okta, Windows Server/Pro, macOS, Python, Bash, PowerShell, Kibana, Rest API, Google Cloud Platform, Terraform, Jenkins, Gitlab.
+  \end{itemize}
+\cvevent{Management Board Representative for the Information Security Managment System}{MM Brown Sp. z o.o.}{Oct 2017 - Mar 2020}{Poznań, Polska}
+\begin{itemize}
+  \item Preparing all required documentation for ISO 27001 certification.
+  \item Security training for employees.
+  \item Designated as a Data Protection Officer due to GDPR requirements.
+\end{itemize}
+\cvevent{Senior IT Specialist}{MM Brown Sp. z o.o.}{Oct 2013 - Mar 2020}{Poznań, Polska}
+\begin{itemize}
+\item Administration: Windows Server, Active Directory, Mass Deployments, Office 365, DHCP, DNS, VPN, Hyper-V, LAMP, SSL certificates, 3CX VoIP exchange.
+\item Internal HelpDesk (2nd line) with the administration of a ticketing system (Redmine).
+\item Constant development of internal network (both physically and logically). Practical experience with setting up LAN, VLAN, WLAN, VPN using Mikrotik, Dell, Netgear, Cisco and Ubiquiti equipment.
+\item Internal IT training for new employees. Included in a recruitment process for technical positions.
+\item Monitoring of the entire infrastructure, including external services managed by third-party providers with Nagios.
+\item Preparing complete internal documentation and easy-to-use manuals for users.
+\item Purchase and budgeting of IT equipment.
+\end{itemize}
+\cvevent{Installer -- servicing}{Prodata Sp. z o.o}{2011 - 2013}{Poznań, Polska}
+\begin{itemize}
+\item Installing computers, diagnosing and repairing breakdowns.
+\item Designing local networks.
+\end{itemize}
+\cvevent{Recreational manager}{Malta Imprezy Sp. z o.o.}{2009 - present}{Poznań, Polska}
+\begin{itemize}
+\item Managing a team of a dozen persons in preparing for organizing integrative events
+\end{itemize}
+
+\cvsection[page2sidebar]{Volunteering}
+\cvachievement{\faLeaf}{Scout master at Polish Scout Association}{\begin{itemize}
+  \item Boy scout since 2001
+  \item Scout instructor since 2008.
+  \item Leader of scout team (13-16 years old scouts) -- 2007-2011.
+  \item Team leader of Scout Instructors -- 2011-2014.
+  \item Team leader of a Honor Guard(2014-2020).
+  \item Commandor of 4 Scout Camps.
+  \item 5 military events under the patronage of the Governor of Wielkopolska. Cooperation with Polish Armed Forces.
+\end{itemize}}
+\cvachievement{\faMedkit}{First Aid Rescuer at Polish Scout Asscociation}{Wędrowniczy Kurs Pierwszej Pomocy HSR}
+\divider
+
+\cvsection{Hobbies}
+
+\cvachievement{\faBicycle}{Sport}{Obstacle course racing, ultra marathons, bodybuilding, bicycle.}
+\divider
+\cvachievement{\faMap}{Trekking}{Mountain lover. Tatra mountains at least twice a year!}
+\divider
+\cvachievement{\faHome}{Smart Home}{Owner of smart home setup, based on Home Assistant software.}
+\divider
+
+\cvsection{GDPR Consent}
+\cvachievement{\faEdit}{I hereby give consent for my personal data included in the application to be processed for the purposes of future recruitment processes.}{}
+
+\clearpage
+\end{document}
