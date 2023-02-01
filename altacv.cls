@@ -327,6 +327,19 @@
   }\EndAccSupp{}\par%
 }
 
+\newcommand{\cvlanguage}[2]{%
+  \textcolor{emphasis}{\textbf{#1}}\hfill
+  \textcolor{emphasis}{\textbf{#2}}\hfill
+  % \BeginAccSupp{method=plain,ActualText={#2}}
+  % \foreach \x in {1,...,5}{%
+  %   \ifdimequal{\x pt - #2 pt}{0.5pt}%
+  %   {\clipbox*{0pt -0.25ex {.5\width} {\totalheight}}{\color{accent}\ratingmarker}%
+  %    \clipbox*{{.5\width} -0.25ex {\width} {\totalheight}}{\color{body!30}\ratingmarker}}
+  %   {\ifdimgreater{\x bp}{#2 bp}{\color{body!30}}{\color{accent}}\ratingmarker}%
+  % }\EndAccSupp{}
+  \par%
+}
+
 % Adapted from @Jake's answer at http://tex.stackexchange.com/a/82729/226
 \newcommand{\wheelchart}[4][0]{%
     \begingroup\centering
